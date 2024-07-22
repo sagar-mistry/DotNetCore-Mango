@@ -1,0 +1,16 @@
+﻿namespace Mango.Web.Utility
+{
+    public class SD
+    {
+        public static string CoupenAPIBase { get; set; }
+        public static string ProductAPIBase { get; set; }
+        public static string AuthAPIBase { get; set; }
+        public enum ApiType
+        {
+            GET, POST, PUT, DELETE
+        }
+        public const string RoleAdmin = "ADMIN";
+        public const string RoleCustomer = "CUSTOMER";
+        public const string TokenCookie = "JWTToken";
+    }
+}
